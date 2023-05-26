@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-img {
+  width: 70vw;
+  height: 100vh;
+  background-image: url("../assets/skyandsea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 100vh;
+}
+
+.login-container-inner {
+  display: flex;
+  width: 25vw;
+  height: 50vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-form {
+  display: flex;
+  width: 18vw;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-form input {
+  background: #fff;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid lightblue;
+  outline: 0;
+  padding: 10px 15px;
+}
+
+.login-form button {
+  background-color: #405cf5;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  box-sizing: border-box;
+  height: 44px;
+  font-size: 100%;
+  margin: 12px 0 0;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.login-lock {
+  width: 40px;
+  height: 40px;
+  background-image: url("../../public/lock.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.password-container {
+  width: 18vw;
+  position: relative;
+}
+.password-container input[type="password"],
+.password-container input[type="text"] {
+  width: 18vw;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+.fa-eye {
+  position: absolute;
+  top: 28%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
