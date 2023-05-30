@@ -23,6 +23,7 @@ const TableAirport = ({ handleGetInfo }) => {
         headers: {
           "Content-Type": "application/json",
           // "Set-Cookie": Cookies.get("token"),
+          token: Cookies.get("token"),
         },
         credentials: "include",
       });
@@ -31,6 +32,7 @@ const TableAirport = ({ handleGetInfo }) => {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
+          token: Cookies.get("token"),
         },
         credentials: "include",
       });
